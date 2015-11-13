@@ -8,14 +8,12 @@ typedef TransitionEvent = {
 	var to : String;
 }
 
-//enum abstract TransitionErrorType {
-//@:enum abstract TransitionErrorType(Int) {
-@:enum abstract TransitionErrorType(String) {
-	var noEvent = 'no_event';
-	var noTransition = 'no_transition';
-	var notAllowed = 'not_allowed';
-	var pendingTransition = 'pending_transition';
-	var noPendingTransition = 'no_pending_transition';
+enum TransitionErrorType {
+	noEvent;
+	noTransition;
+	notAllowed;
+	pendingTransition;
+	noPendingTransition;
 }
 
 typedef TransitionErrorEvent = { > TransitionEvent,
@@ -33,6 +31,7 @@ private typedef Transition = {
 	TODO
 		- from * wildcards
 		? @:autoBuild strict sm
+		- Async
 */
 //@:autoBuild(tron.macro.BuildStateMachine.build())
 class StateMachine {
