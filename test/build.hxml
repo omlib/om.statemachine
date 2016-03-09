@@ -1,0 +1,12 @@
+-main Unit
+-cp ../src
+-cp ../../om.core/src
+--each
+
+--next
+-js unit.js
+-D web
+
+--next
+-js unit.node.js
+-lib hxnodejs

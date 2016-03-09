@@ -1,4 +1,4 @@
 
-# Om.statemachine
+# OM|STATEMACHINE
 
 Finite state machine.
