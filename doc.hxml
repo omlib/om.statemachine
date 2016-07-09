@@ -1,0 +1,40 @@
+--no-output
+-cp src
+om.StateMachine
+--each
+
+--next
+-cpp x
+-xml doc/cpp.xml
+
+--next
+-cs x
+-xml doc/cs.xml
+
+--next
+-java x
+-xml doc/java.xml
+
+--next
+-js x
+-xml doc/js.xml
+
+--next
+-lua x
+-xml doc/lua.xml
+
+--next
+-neko x
+-xml doc/neko.xml
+
+--next
+-php x
+-xml doc/php.xml
+
+--next
+-python x
+-xml doc/python.xml
+
+--next
+-swf x
+-xml doc/swf.xml

@@ -1,3 +1,5 @@
+_*
+doc/
 test/unit*.js*
-TODO*
 example/app*
+TODO*
