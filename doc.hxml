@@ -1,40 +1,45 @@
 --no-output
--cp src
+-lib om.statemachine
 om.StateMachine
+-D doc-gen
 --each
 
 --next
--cpp x
--xml doc/cpp.xml
+-cpp _
+-xml xml/cpp.xml
 
 --next
--cs x
--xml doc/cs.xml
+-cs _
+-xml xml/cs.xml
 
 --next
--java x
--xml doc/java.xml
+-hl _
+-xml xml/hl.xml
 
 --next
--js x
--xml doc/js.xml
+-java _
+-xml xml/java.xml
 
 --next
--lua x
--xml doc/lua.xml
+-js _
+-xml xml/js.xml
 
 --next
--neko x
--xml doc/neko.xml
+-lua _
+-xml xml/lua.xml
 
 --next
--php x
--xml doc/php.xml
+-neko _
+-xml xml/neko.xml
 
 --next
--python x
--xml doc/python.xml
+-php _
+-xml xml/php.xml
 
 --next
--swf x
--xml doc/swf.xml
+-python _
+-xml xml/python.xml
+
+--next
+-swf _
+-xml xml/swf.xml

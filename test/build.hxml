@@ -1,12 +1,17 @@
 -main Unit
--cp ../src
--cp ../../om.core/src
+-lib om.statemachine
+-lib om.test
+-cp case
+-dce no
 --each
 
 --next
--js unit.js
+-js bin/unit.js
 -D web
 
 --next
--js unit.node.js
+-js bin/unit.node.js
 -lib hxnodejs
+
+--next
+-neko bin/unit.n
